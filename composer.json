@@ -1,0 +1,10 @@
+{
+    "name": "projeto/api",
+    "description": "Um mini framework",
+    "autoload":{
+        "classmap": ["config"],
+        "psr-4":{
+            "App\\" : "App/"
+        }
+    }
+}
